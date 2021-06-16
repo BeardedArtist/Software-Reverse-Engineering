@@ -1,2 +1,6 @@
 # Software-Reverse-Engineering
-This is a project showcasing my skills in creating a program by converting assembly code into C++ code.
+This is a project showcasing my skills in creating a program by converting assembly code into C++ code. The main goal of this project was to recieve a mock legacy system and learn assembly code and re-create a program from both the assembly and .out executable files.
+
+In order to create the final c++ program, we were given both a .out file and a document containing the assembly code. The .out files helped us see how the program works when executed and the assembly code was there to help us break down the program and learn it from the inside out. After analyzing the assembly code, I worked on creating the program to match the assembly code perfectly. However, a number of vulnerabilities were found in the code. Therefore, I updated the code as much as I could while also trying to stay as close to the assembly code to showcase my skills in recreation.
+
+Because I wanted to stay as close to the assembly code as possible, certain coding choices were made. For example, instead of creating a database to hold the usernames and passwords of the current users, I instead hardcoded the values into the program. Again, this decision was made to stay as close to the assembly as possible. Additionally, I made this choice because these names were already hardcoded in the original program as seen from the hex code. 
